@@ -1,0 +1,25 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# JavaScript
+node_modules/
+.next/
+out/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+
+# Local data volumes
+postgres-data/
+backend/data/*.xlsx
+backend/data/*.json
+backend/data/knowledge_images/
+backend/knowledge-base/.upload-*/

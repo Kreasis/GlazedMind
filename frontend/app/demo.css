@@ -1,0 +1,21 @@
+.demo-runtime-note {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding: 11px 14px;
+  border: 1px solid #6e437f;
+  border-radius: 9px;
+  background: linear-gradient(90deg, #261333, #101329);
+  font-size: 11px;
+}
+
+.demo-runtime-note b {
+  color: var(--pink);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.demo-runtime-note span {
+  color: #c3c7dc;
+}
